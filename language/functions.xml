@@ -744,10 +744,10 @@ function numeri_piccoli()
     return [0, 1, 2];
 }
 // La destrutturazione dell'array raccoglierà ogni membro dell'array individualmente
-[$zero, $one, $two] = small_numbers();
+[$zero, $one, $two] = numeri_piccoli();
 
 // Prima della 7.1.0, l'unica alternativa equivalente è usare il costrutto list()
-list($zero, $one, $two) = small_numbers();
+list($zero, $one, $two) = numeri_piccoli();
 
 ?>
 ]]>
